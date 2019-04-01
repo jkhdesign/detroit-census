@@ -53,20 +53,19 @@ body {
   justify-content: center;
 }
 
-#content-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#title-content {
+  width: 70%;
+  overflow-y: scroll;
 }
 
-#title-content,
-#content {
-  width: 70%;
-  height: 80%;
+#content-container {
+  height: 100%;
+  width: 50%;
   overflow-y: scroll;
 }
 
 #content {
+  margin: 6rem;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -74,6 +73,12 @@ body {
 
 #tip-one, #tip-two {
   padding-bottom: 2rem;
+}
+
+#title-container {}
+
+#title-container .number {
+  transform: translateY(-1.5rem);
 }
 
 img {
@@ -91,8 +96,7 @@ a {
   display: block;
 }
 
-#buttons,
-#content-container {
+#buttons {
   height: 100%;
   width: 50%;
   display: flex;
@@ -189,9 +193,20 @@ small {
   box-shadow: 10px 10px 0px 0px rgb(250,121,33);
 }
 
+#info-message {
+  float: left;
+}
+
+#info-confirm {
+  float: right;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 #the-question {
   border: 1px solid black;
   padding: 1em;
+  text-align: justify;
 }
 
 ::selection {
