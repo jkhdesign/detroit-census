@@ -1,3 +1,7 @@
 $('#info-confirm').on('click',() => {
   $('#info-bar').toggle();
 });
+
+$('#add').on('click',() => {
+  $('#inputs').append('<input placeholder="name@example.com" />');
+});

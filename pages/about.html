@@ -1,10 +1,13 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DETROITDOTHECENSUS2020</title>
   <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/print.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
@@ -20,17 +23,47 @@
     </div>
     <div id="title">
       <div id="title-content">
-        <a href="../index.html"><img id="logo" src="../assets/svg/logo-color.svg" width="80%"/></a>
+        <a href="../index.html"><img id="logo" src="../assets/svg/logo-color.svg" width="80%" /></a>
         <p>The outcome of the 2020 census in Detroit will determine the success of our city for the next 10 years. <br /><br />In 2010, it’s estimated that roughly 27,000 households did not complete the census, depriving Detroit of crucial funding. We can’t afford to make the same mistake twice.</p>
       </div>
     </div>
-    <div id="content-wrapper">
+    <div id="content-container">
       <div id="content">
-        <h2>ABOUT THIS SITE:</h2>
-        <p>This is my writing!</p>
+        <div>
+          <h3>ABOUT THIS SITE:</h3><br />
+          <p>DetroitDoTheCensus2020.com is an outreach program that emphasizes the importance of the 2020 census for the city of Detroit specifically. It was created by Josh Krauth-Harding at the College for Creative Studies in Detroit.</p>
+        </div>
       </div>
     </div>
-    <div id="info-bar"><p id="info-message"><b>This website is print-friendly!</b> Print any page to share with friends & family!</p><p id="info-confirm">OK</p></div>
-    <script src="../js/scripts.js"></script>
+  </div>
+
+  <!-- PRINTED PAGE -->
+    <div id="print">
+      <div>
+        <img id="logo" src="../assets/svg/logo-bw.svg" width="50%" />
+      </div>
+      <div id="print-middle">
+        <div id="info"><div><p>The outcome of the 2020 census in Detroit will determine the success of our city for the next 10 years. <br /><br />In 2010, it’s estimated that roughly 27,000 households did not complete the census, depriving Detroit of crucial funding. We can’t afford to make the same mistake twice.</p></div></div>
+        <div id="dates">
+          <div>
+          <h4>DATES TO REMEMBER:</h4>
+          <p><b>March 23</b> Self-registration starts<br />
+          <b>April 01</b> Census day</p><br /><br />
+          <h4>REGISTER AT:</h4>
+          <p>Starting March 23, you can log onto www.census.gov to start your census ONLINE for the first time in U.S. history!</p>
+          </div>
+        </div>
+      </div>
+      <div id="print-bottom">
+        <div><h4>DETROIT<br />DOTHECENSUS<br />2020.COM</h4></div>
+        <div id="center-x"><h4>&times;</h4></div>
+        <div><img src="../assets/svg/census-logo.jpg" height="60em"/></Div>
+      </div>
+      <div id="print-footer">
+        <h5 style="float: left;">PRINT # %NUM%</h5><h5 style="float: right;">by user %USER% on %DATE%</h5>
+      </div>
+    </div>
+  <script src="../js/scripts.js"></script>
 </body>
+
 </html>
