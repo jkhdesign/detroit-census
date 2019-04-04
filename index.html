@@ -2,6 +2,14 @@
 
 <html lang="en">
 
+<!--
+ACCESSIBILITY:
++ color contrast meets standards for color-blind users
++ alt text is provided on images
++ access keys link to pages in intuitively
++ tab index directs user to header menu first
+ -->
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,17 +23,17 @@
 <body>
   <div id="wrapper">
     <div id="header">
-      <a href="#">DETROITDOTHECENSUS2020.COM</a>
+      <a href="#" accesskey="0" tabindex="0">DETROITDOTHECENSUS2020.COM</a>
       <div id="header-right">
-        <a href="pages/shop.html">SHOP</a>
-        <a href="pages/prepare.html">PREPARE</a>
-        <a href="pages/share.html">SHARE</a>
+        <a href="pages/prepare.html" accesskey="1">PREPARE</a>
+        <a href="pages/share.html" accesskey="2">SHARE</a>
+        <a href="pages/shop.html" accesskey="3">SHOP</a>
       </div>
       <a href="menu.html"><img src="assets/svg/menu.svg" id="menu"/></a>
     </div>
     <div id="title">
       <div id="title-content">
-        <a href="#"><img id="logo" src="assets/svg/logo-color.svg" width="80%" /></a>
+        <a href="#"><img id="logo" src="assets/svg/logo-color.svg" width="80%" alt="detroit census logo" /></a>
         <p>The outcome of the 2020 census in Detroit will determine the success of our city for the next 10 years. <br /><br />In 2010, it’s estimated that roughly 27,000 households did not complete the census, depriving Detroit of crucial funding. We can’t afford to make the same mistake twice.</p>
       </div>
     </div>
@@ -35,6 +43,9 @@
       </a>
       <a href="pages/share.html" id="share" class="button"><span class="number">2</span>
         <h2>SHARE<br />WITH<br />OTHERS</h2>
+      </a>
+      <a href="pages/shop.html" id="shop" class="button"><span class="number">3</span>
+        <h2>REP<br />THE<br />BRAND</h2>
       </a>
     </div>
     <div id="info-bar">
