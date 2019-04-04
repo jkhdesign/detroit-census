@@ -5,3 +5,7 @@ $('#info-confirm').on('click',() => {
 $('#add').on('click',() => {
   $('#inputs').append('<input placeholder="name@example.com" />');
 });
+
+$('.buy').on('click',() => {
+  alert('Added to cart!')
+});
