@@ -134,7 +134,7 @@ hr {
 }
 
 input {
-  width: 100%;
+  width: calc(100% - 1em);
   height: 4em;
   padding-left: 1em;
   margin-bottom: 2em;
@@ -153,6 +153,10 @@ input:first-child {
 #share {
   border-top: none;
   border-left: none;
+}
+
+#shop {
+  border-top: none;
 }
 
 h1 {
@@ -191,7 +195,7 @@ p, h2, h3, input {
 }
 
 .share-button {
-  width: 100%;
+  width: calc(100% - 1em);
   text-align: center;
   cursor: pointer;
   border: 1px solid black;
@@ -316,6 +320,14 @@ h4 {
     width: 100%;
   }
 
+  #title-content {
+    width: 90%;
+  }
+
+  #content {
+    margin: 1em;
+  }
+
   #wrapper {
     flex-wrap: wrap;
     overflow: scroll;
@@ -336,5 +348,9 @@ h4 {
 
   #menu {
     display: block;
+  }
+
+  #share, #prepare {
+    border-left: 1px solid black;
   }
 }
