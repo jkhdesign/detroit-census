@@ -54,7 +54,7 @@
 }
 
 @media print {
-  #wrapper {
+  #wrapper, #micro-wrapper {
     display: none;
   }
 

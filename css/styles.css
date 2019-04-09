@@ -101,8 +101,13 @@ a {
   color: inherit;
 }
 
+p a {
+  opacity: 0.5;
+}
+
 a:hover {
   text-decoration: underline;
+  opacity: 1;
 }
 
 hr {
